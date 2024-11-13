@@ -9,7 +9,7 @@ public class HW {
 
     @GetMapping(path = "/gyan")
     public String hello(){
-        return "Hello For Gyan Ponnappa";
+        return "Hello";
     }
     @GetMapping(path = "/greet")
     public String greeting(){
